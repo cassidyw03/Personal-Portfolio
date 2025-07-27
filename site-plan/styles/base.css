@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cinzel:wght@400..900&family=Fauna+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+h1 {
+    font-size: 50px;
+}
+
+.headers {
+    font-size: 20px;
+}
+
+body {
+    padding: 20px;
+    background-color: #dacdb8;
+  }
+  
+  table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 20px;
+    border: 1px solid #fff5eb;
+    font-weight: bold;
+  }
+  
+  .color1 {
+    background-color: #B0916A;
+    color: #000;
+  }
+  
+  .color2 {
+    background-color: rgb(172, 205, 100);
+    color: #000;
+  }
+  
+  .color3 {
+    background-color: rgb(83, 210, 155);
+    color: #000;
+  }
+
+  .color4 {
+    background-color: rgb(115, 181, 109);
+    color: #000;
+  }
+
+  .color5 {
+    background-color: rgb(88, 134, 83);
+    color: #000;
+  }
+
+  .color6 {
+    background-color: rgb(217, 228, 218);
+    color: #000;
+  }
+
+  .font1 {
+    font-family: "Alice";
+  }
+
+  .font2 {
+    font-family: "Cinzel";
+  }
+
+  .font3 {
+    font-family: "Fauna One";
+  }
+
+  .font4 {
+    font-family: "Libre Baskerville";
+  }
+
+  .font5 {
+    font-family: "Montserrat";
+  }
+
+  .font6 {
+    font-family: "Playfair Display";
+  }
+
+  

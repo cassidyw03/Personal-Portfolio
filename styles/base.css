@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cinzel:wght@400..900&family=Fauna+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    padding: 20px;
+    /* background-color: #dacdb8; */
+    background-color: #baa78a;
+    font-family: "Alice";
+    /* border: 20px solid rgb(255, 255, 255); */
+}
+
+/* 
+#cursor-element {
+  position: fixed; 
+  width: 20px; 
+  height: 20px;
+  background-color: rgb(255, 166, 166);
+  border-radius: 50%; 
+  pointer-events: none; 
+  display: none; 
+} */
+
+/* Cursor */
+.cursor {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transform: translate(-50% -50%);
+  pointer-events: none;
+}
+
+.outer {
+  border: 1px solid #f7f7f770;
+}
+
+.inner {
+  background-color: #f7f7f720;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav a:link, .nav a:visited {
+    color: white;
+}
+
+.nav:hover {
+    color: none;
+}
+
+h1 {
+    font-family: "Libre Baskerville";
+    font-size: 40px;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+ 
+
+.profile img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 350px;
+    border: white 30px;
+}
+
+/* Font Awesome Icon Styling */
+.fa {
+    padding: 15px;
+    font-size: 300px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+  
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+    border-radius: 50%;
+}
+
+.social-links {
+    display: block;
+    padding: 30px 0px;
+}
+
+/* Resume Button */
+.download-button {
+  display: inline-block;
+  padding: 15px;
+  background-color: rgb(99, 79, 68);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: rgb(63, 51, 44);
+}
+
+.intro {
+    /* padding: 0px, 0px, 20px, 20px; */
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.contact-button {
+    background-color: rgb(99, 79, 68);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    color: white;
+}
+
+.contact-button:hover {
+  background-color: rgb(63, 51, 44);
+}
+
+/* Media Query for larger Screens */
+@media (min-width: 47.5em) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
